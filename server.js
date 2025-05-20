@@ -24,7 +24,6 @@ const IMMICH_URL = process.env.IMMICH_URL;
 const IMMICH_API_KEY = process.env.IMMICH_API_KEY;
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SECRET = process.env.SUPABASE_ANON_KEY;
-const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY);
 const supabase = createClient("https://vlwmqovyhcdwxrgfkrml.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsd21xb3Z5aGNkd3hyZ2Zrcm1sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3NjQ4NTYsImV4cCI6MjA2MzM0MDg1Nn0.T--U4EDN0tTk-nmHGuQa0DZuSg_sA0UFIofME74tn2A");
 const { data, error } = await supabase
     .from('test')
