@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/matwin04/YIMBYSimulator#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.7",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3",
